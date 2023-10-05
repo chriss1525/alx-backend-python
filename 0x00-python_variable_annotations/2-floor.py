@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """function floor that takes a float and returns the floor of the float"""
 
+
+import math
 
 def floor(n: float) -> float:
     """Return the floor of the float"""
