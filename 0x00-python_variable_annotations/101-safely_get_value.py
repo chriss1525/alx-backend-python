@@ -10,7 +10,9 @@ result = Union[Any, T]
 DEFAULT = Union[T, None]
 
 
-def safely_get_value(dct: Mapping, key: Any, default: DEFAULT = None) -> result:
+def safely_get_value(dct: Mapping,
+                     key: Any,
+                     default: DEFAULT = None) -> result:
     """add type annotation to function"""
     if key in dct:
         return dct[key]
