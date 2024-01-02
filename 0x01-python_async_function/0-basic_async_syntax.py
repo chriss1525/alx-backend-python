@@ -3,6 +3,8 @@
 
 # asynchronous coroutine that takes in an integer argument
 
+"""Asynchronous coroutine"""
+
 import asyncio
 import random
 
