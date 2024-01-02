@@ -5,7 +5,6 @@
 
 import math
 
-
 def to_str(n: float) -> str:
     """Return the string"""
-    return str(n: float)
+    return (str(n))
