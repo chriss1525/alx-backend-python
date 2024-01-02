@@ -2,17 +2,21 @@
 # -*- coding: utf-8 -*-
 
 """validate code using mypy"""
-
 from typing import List, Tuple
 
+
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """validate code using mypy"""
+    '''Creates multiple copies of items in a tuple.
+    '''
     zoomed_in: List = [
         item for item in lst
-        for i in range(factor)
+        for i in range(int(factor))
     ]
     return zoomed_in
 
-arr = [12, 72, 91]
-zoom_2x = zoom_array(arr)
-zoom_3x = zoom_array(arr, 3.0)
+
+array = (12, 72, 91)
+
+zoom_2x = zoom_array(array)
+
+zoom_3x = zoom_array(array, 3)
